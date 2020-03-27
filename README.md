@@ -1,24 +1,44 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Judith's Barley Bags 
 
-Things you may want to cover:
+A full stack web application using Ruby on Rails, JavaScript, CSS, and React.js. The application is a platform for Judith (my mother) to share her Barley Bag creations with friends and family. 
 
-* Ruby version
+Judith's Barley Bags was created as part of the Module 4 project in the Flatiron School software engineering bootcamp program.
 
-* System dependencies
+Features: 
 
-* Configuration
+1. Can learn about Barley Bags and their purpose
+2. Can submit a custom order for several Barley Bags based on fabric choice, size, and 'act of kindness' as a form of payment
+3. Can submit a review of the Barley Bag product and view other verified reviews
+4. Can learn more about Judith through a fully functioning Crossword Puzzle
 
-* Database creation
 
-* Database initialization
+Installation: 
 
-* How to run the test suite
+The backend application uses 'Rails version 6.0.2.1 - Ruby 2.6.1'. Fork & Clone down repository, run $bundle install, run $rails DB:create, run $rails DB:seed, run $rails s. 
 
-* Services (job queues, cache servers, search engines, etc.)
+The frontend application uses 'React version 16.13.0'. Fork & Clone down repository, run $npm install, and $npm start to open the application in a browser.   
 
-* Deployment instructions
+How to interact with this application: 
 
-* ...
+Please visit https://judiths-barley-bags.firebaseapp.com/home/aboutBarleyBags to interact with the webpage and order yourself a Barley Bag!
+
+The backend is hosted by Heroku https://judiths-barley-bags.herokuapp.com. 
+	‘GET, ‘POST’ to the endpoint $/bags 
+	‘GET, ‘POST’ to the endpoint $/reviews 
+
+Rails Dependencies 
+
+gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
+gem 'pg', '>= 0.18', '< 2.0'
+gem 'puma', '~> 4.1'
+gem 'bootsnap', '>= 1.4.2', require: false
+gem 'rack-cors'
+gem 'byebug'
+gem 'listen', '>= 3.0.5', '< 3.2'
+gem 'spring'
+gem 'spring-watcher-listen', '~> 2.0.0'
+gem 'tzinfo-data' 
+
+
