@@ -41,4 +41,7 @@ gem 'spring'
 gem 'spring-watcher-listen', '~> 2.0.0'
 gem 'tzinfo-data' 
 
+Additional Comments: 
+
+The Carousel property on the 'Shop Barley Bags' page is an imported package and component that is customized to Judith's Barley Bags web page. The package was installed from the following code source: https://www.npmjs.com/package/react-responsive-carousel
 
