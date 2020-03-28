@@ -13,7 +13,6 @@ Features:
 3. Can submit a review of the Barley Bag product and view other verified reviews
 4. Can learn more about Judith through a fully functioning Crossword Puzzle
 
-
 Installation: 
 
 The backend application uses 'Rails version 6.0.2.1 - Ruby 2.6.1'. Fork & Clone down repository, run $bundle install, run $rails DB:create, run $rails DB:seed, run $rails s. 
@@ -24,15 +23,14 @@ How to interact with this application:
 
 Please visit https://judiths-barley-bags.firebaseapp.com/home/aboutBarleyBags to interact with the webpage and order yourself a Barley Bag!
 
-The backend is hosted by Heroku https://judiths-barley-bags.herokuapp.com. 
-	‘GET, ‘POST’ to the endpoint $/bags 
-	‘GET, ‘POST’ to the endpoint $/reviews 
+The backend is hosted by Heroku https://judiths-barley-bags.herokuapp.com 
+
+1. ‘GET, ‘POST’ to the endpoint $/bags 
+2. ‘GET, ‘POST’ to the endpoint $/reviews 
 
 Rails Dependencies 
 
-gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
-gem 'pg', '>= 0.18', '< 2.0'
-gem 'puma', '~> 4.1'
+gem 'rails',
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'rack-cors'
 gem 'byebug'
