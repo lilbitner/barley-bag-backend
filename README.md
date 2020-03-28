@@ -13,6 +13,8 @@ Features:
 3. Can submit a review of the Barley Bag product and view other verified reviews
 4. Can learn more about Judith through a fully functioning Crossword Puzzle
 
+![](https://www.youtube.com/watch?v=eRKoAQ0iNxE)
+
 Installation: 
 
 The backend application uses 'Rails version 6.0.2.1 - Ruby 2.6.1'. Fork & Clone down repository, run $bundle install, run $rails DB:create, run $rails DB:seed, run $rails s. 
