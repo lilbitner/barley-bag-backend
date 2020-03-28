@@ -13,7 +13,7 @@ Features:
 3. Can submit a review of the Barley Bag product and view other verified reviews
 4. Can learn more about Judith through a fully functioning Crossword Puzzle
 
-![](https://www.youtube.com/watch?v=eRKoAQ0iNxE)
+Link to Demo Video: https://www.youtube.com/watch?v=eRKoAQ0iNxE  
 
 Installation: 
 
