@@ -24,6 +24,7 @@ The frontend application uses 'React version 16.13.0'. Fork & Clone down reposit
 How to interact with this application: 
 
 Please visit https://judiths-barley-bags.firebaseapp.com/ to interact with the webpage and order yourself a Barley Bag!
+The frontend repository can be found here: https://github.com/lilbitner/barley-bag-market
 
 The backend is hosted by Heroku https://judiths-barley-bags.herokuapp.com 
 
