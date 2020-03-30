@@ -13,6 +13,8 @@ Features:
 3. Can submit a review of the Barley Bag product and view other verified reviews
 4. Can learn more about Judith through a fully functioning Crossword Puzzle
 
+Link to Demo Video: https://www.youtube.com/watch?v=eRKoAQ0iNxE  
+
 Installation: 
 
 The backend application uses 'Rails version 6.0.2.1 - Ruby 2.6.1'. Fork & Clone down repository, run $bundle install, run $rails DB:create, run $rails DB:seed, run $rails s. 
@@ -21,7 +23,8 @@ The frontend application uses 'React version 16.13.0'. Fork & Clone down reposit
 
 How to interact with this application: 
 
-Please visit https://judiths-barley-bags.firebaseapp.com/home/aboutBarleyBags to interact with the webpage and order yourself a Barley Bag!
+Please visit https://judiths-barley-bags.firebaseapp.com/ to interact with the webpage and order yourself a Barley Bag!
+The frontend repository can be found here: https://github.com/lilbitner/barley-bag-market
 
 The backend is hosted by Heroku https://judiths-barley-bags.herokuapp.com 
 
